@@ -55,6 +55,7 @@ body {
   left: 50%;
   /*  in relation to the element itself */
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading-primary {
@@ -62,6 +63,7 @@ body {
   text-transform: uppercase;
   /* stops slight shake on animation */
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -120,4 +122,33 @@ body {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+/* pseudo-classes for anchor element */
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  /* blur value gives illusion of depth */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+/* click */
+.btn:active {
+   /* movt related to initial state */
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
 }
