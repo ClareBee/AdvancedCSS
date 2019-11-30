@@ -8,7 +8,9 @@ Dark green: #28b485
 */
 
 /* simple reset vs browser defaults */
-* {
+*,
+*:after,
+*:before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
