@@ -1,0 +1,17 @@
+/* simple reset vs browser defaults */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 10px rel to browser default of 16px = defines 1rem */
+  font-sizing: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
