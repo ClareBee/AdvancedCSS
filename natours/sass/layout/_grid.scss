@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
   // :not() pseudo-class
   &:not(:last-child){
@@ -9,8 +8,6 @@
   @include clearfix;
   // attribute selector for classes beginning with
   [class^="col-"] {
-    background-color: $color-primary-dark;
-    color: $color-white;
     float: left;
     &:not(:last-child){
       margin-right: $gutter-horizontal;
