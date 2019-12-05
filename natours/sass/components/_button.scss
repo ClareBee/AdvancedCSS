@@ -36,6 +36,14 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   /* effectively a 'child' of btn */
   &::after {
     /* content and display always needed */
