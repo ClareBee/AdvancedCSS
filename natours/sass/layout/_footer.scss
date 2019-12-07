@@ -7,9 +7,14 @@
   @include respond(tab-portait){
     padding: 8rem 0;
   }
+
   &__logo-box {
     text-align: center;
     margin-bottom: 8rem;
+
+    @include respond(tab-portait){
+      margin-bottom: 6rem;
+    }
   }
 
   &__logo {
@@ -21,7 +26,8 @@
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
     display: inline-block;
-    @include respond(tab-portait){
+
+    @include respond(tab-portait) {
       width: 100%;
       text-align: center;
     }
@@ -62,10 +68,12 @@
     padding-top: 2rem;
     width: 80%;
     float: right;
-    @include respond(tab-portait){
-      width: 100%;
+
+    @include respond(tab-portrait) {
+      width: 100% !important;
       text-align: center;
       float: none;
     }
+
   }
 }
