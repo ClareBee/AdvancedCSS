@@ -13,6 +13,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden; // means corners visible despite bg image
     border-radius: 3px;
