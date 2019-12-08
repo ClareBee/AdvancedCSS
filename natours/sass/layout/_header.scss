@@ -13,7 +13,7 @@
   position: relative; /* as parent element of logo-box => origin */
 
 // resolution of apple retina screen
-  @media (min-resolution: 192dpi) {
+  @media (min-resolution: 192dpi) and (min-width: 600px){
     background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
