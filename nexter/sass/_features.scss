@@ -1,4 +1,9 @@
 .features {
-  background-color: $color-grey-light-2;
   grid-column: centre-start / centre-end;
+
+  margin: 15rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // no rows defined -> implicit grid
+  grid-gap: 6rem;
 }
