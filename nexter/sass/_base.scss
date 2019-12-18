@@ -14,6 +14,10 @@ $color-grey-dark-2: #6D5D4B;
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
+// BREAKPOINTS
+$bp-largest: 75em; // 1200px / 16px
+$bp-large: 62.5em; // 1000px / 16px
+
 *,
 *::after,
 *::before {
@@ -25,6 +29,10 @@ $font-display: 'Josefin Sans', sans-serif;
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%; // 1rem = 8px
+  }
 }
 
 body {
@@ -39,4 +47,10 @@ body {
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content); //min content = auto
   // side bar + 8 columns that at least match content, at most reach 140px, 2 1fr columns to center it
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
+
+  @media only screen and (max-width: $bp-large) {
+    grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content); //min content = auto
+    // side bar + 8 columns that at least match content, at most reach 140px, 2 1fr columns to center it
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
+  }
 }
