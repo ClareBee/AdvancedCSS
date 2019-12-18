@@ -17,6 +17,8 @@ $font-display: 'Josefin Sans', sans-serif;
 // BREAKPOINTS
 $bp-largest: 75em; // 1200px / 16px
 $bp-large: 62.5em; // 1000px / 16px
+$bp-medium: 50em; // 800px / 16px
+$bp-small: 37.5em; // 600px / 16px
 
 *,
 *::after,
@@ -50,7 +52,9 @@ body {
 
   @media only screen and (max-width: $bp-large) {
     grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content); //min content = auto
-    // side bar + 8 columns that at least match content, at most reach 140px, 2 1fr columns to center it
-    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
+  }
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-rows: 6rem calc(100vh - 6rem); // rest are automatically set to min-content/auto = implicit
   }
 }
