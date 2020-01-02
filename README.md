@@ -4,8 +4,9 @@
 
 *Natours project using floats & animations*
 
+[Certificate of Completion](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/cert.pdf)
 ---
-## Course Content: 
+## Course Content:
 *(text from website)*
 ### Modern cutting-edge CSS techniques:
 - clip-path, background-clip, mask-image, background-blend-mode, shape-outside, filter, backdrop-filter, object-fit, transform, column-count, hyphens, perspective, calc() and custom CSS properties;
