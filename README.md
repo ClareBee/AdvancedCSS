@@ -3,8 +3,6 @@
 ![Natours Project](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/Natours.jpg)
 
 *Natours project using floats & animations*
-
-[Certificate of Completion](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/cert.pdf)
 ---
 ## Course Content:
 *(text from website)*
