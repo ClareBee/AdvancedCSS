@@ -1,6 +1,6 @@
 ["Advanced CSS and Sass"](https://www.udemy.com/course/advanced-css-and-sass) - Jonas Schmedtmann (28+ hours)
 
-![Natours Project]()
+![Natours Project(https://github.com/ClareBee/AdvancedCSS/blob/master/assets/Natours.jpg)
 
 *(text from website)*
 • **Modern cutting-edge CSS techniques** to create stunning designs and effects: clip-path, background-clip, mask-image, background-blend-mode, shape-outside, filter, backdrop-filter, object-fit, transform, column-count, hyphens, perspective, calc() and custom CSS properties;
@@ -33,6 +33,6 @@
 
 • **CSS Grid layouts:** main concepts, CSS grid vs flexbox, and layout techniques applied to a real-world project.
 
-![Nexter Project]()
-![Trillo web]()
-![Trillo mobile]()
+![Nexter Project](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/Nextter.jpg)
+![Trillo web](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/Trillo-web.jpg)
+![Trillo mobile](https://github.com/ClareBee/AdvancedCSS/blob/master/assets/Trillo-mobile.jpg)
